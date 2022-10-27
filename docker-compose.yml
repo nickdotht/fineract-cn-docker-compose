@@ -744,7 +744,7 @@ services:
         ipv4_address: ${NOTIFICATIONS_IP}
 
   fims-web-app:
-    image: apache/fineract-cn-fims-web-app:latest
+    image: nickhaitipay/fineract-cn-fims-web-app:latest
     ports:
       - "8888:8888"
     networks:
