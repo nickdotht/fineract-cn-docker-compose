@@ -339,6 +339,17 @@ services:
       system.publicKey.exponent: ${PUBLIC_KEY_EXPONENT}
       system.publicKey.modulus: ${PUBLIC_KEY_MODULUS}
       system.publicKey.timestamp: ${PUBLIC_KEY_TIMESTAMP}
+      keycloak.auth-server-url: https://localhost:8180/auth
+      keycloak.ssl-required: external
+      keycloak.confidential-port: 443
+      keycloak.realm: keycloak-realm
+      keycloak.resource: kecloak-client
+      keycloak.public-client: "true"
+      keycloak.principal-attribute: preferred_username
+      keycloak.bearer-only: "true"
+      conf.enableAccountLevelAccessVerification: "false"
+      fin.keycloak.realm.publicKey: keycloak-rsa-public-key
+      keycloak.use-resource-role-mappings: "true"
     networks:
       external_tools_default:
       fineract:
@@ -386,6 +397,17 @@ services:
       system.publicKey.exponent: ${PUBLIC_KEY_EXPONENT}
       system.publicKey.modulus: ${PUBLIC_KEY_MODULUS}
       system.publicKey.timestamp: ${PUBLIC_KEY_TIMESTAMP}
+      keycloak.auth-server-url: https://localhost:8180/auth
+      keycloak.ssl-required: external
+      keycloak.confidential-port: 443
+      keycloak.realm: keycloak-realm
+      keycloak.resource: kecloak-client
+      keycloak.public-client: "true"
+      keycloak.principal-attribute: preferred_username
+      keycloak.bearer-only: "true"
+      conf.enableAccountLevelAccessVerification: "false"
+      fin.keycloak.realm.publicKey: keycloak-rsa-public-key
+      keycloak.use-resource-role-mappings: "true"
     networks:
       external_tools_default:
       fineract:
@@ -424,6 +446,17 @@ services:
       system.publicKey.exponent: ${PUBLIC_KEY_EXPONENT}
       system.publicKey.modulus: ${PUBLIC_KEY_MODULUS}
       system.publicKey.timestamp: ${PUBLIC_KEY_TIMESTAMP}
+      keycloak.auth-server-url: https://localhost:8180/auth
+      keycloak.ssl-required: external
+      keycloak.confidential-port: 443
+      keycloak.realm: keycloak-realm
+      keycloak.resource: kecloak-client
+      keycloak.public-client: "true"
+      keycloak.principal-attribute: preferred_username
+      keycloak.bearer-only: "true"
+      conf.enableAccountLevelAccessVerification: "false"
+      fin.keycloak.realm.publicKey: keycloak-rsa-public-key
+      keycloak.use-resource-role-mappings: "true"
     networks:
       external_tools_default:
       fineract:
@@ -464,6 +497,17 @@ services:
       system.publicKey.exponent: ${PUBLIC_KEY_EXPONENT}
       system.publicKey.modulus: ${PUBLIC_KEY_MODULUS}
       system.publicKey.timestamp: ${PUBLIC_KEY_TIMESTAMP}
+      keycloak.auth-server-url: https://localhost:8180/auth
+      keycloak.ssl-required: external
+      keycloak.confidential-port: 443
+      keycloak.realm: keycloak-realm
+      keycloak.resource: kecloak-client
+      keycloak.public-client: "true"
+      keycloak.principal-attribute: preferred_username
+      keycloak.bearer-only: "true"
+      conf.enableAccountLevelAccessVerification: "false"
+      fin.keycloak.realm.publicKey: keycloak-rsa-public-key
+      keycloak.use-resource-role-mappings: "true"
     networks:
       external_tools_default:
       fineract:
@@ -499,6 +543,17 @@ services:
       system.publicKey.exponent: ${PUBLIC_KEY_EXPONENT}
       system.publicKey.modulus: ${PUBLIC_KEY_MODULUS}
       system.publicKey.timestamp: ${PUBLIC_KEY_TIMESTAMP}
+      keycloak.auth-server-url: https://localhost:8180/auth
+      keycloak.ssl-required: external
+      keycloak.confidential-port: 443
+      keycloak.realm: keycloak-realm
+      keycloak.resource: kecloak-client
+      keycloak.public-client: "true"
+      keycloak.principal-attribute: preferred_username
+      keycloak.bearer-only: "true"
+      conf.enableAccountLevelAccessVerification: "false"
+      fin.keycloak.realm.publicKey: keycloak-rsa-public-key
+      keycloak.use-resource-role-mappings: "true"
     networks:
       external_tools_default:
       fineract:
@@ -534,6 +589,17 @@ services:
       system.publicKey.exponent: ${PUBLIC_KEY_EXPONENT}
       system.publicKey.modulus: ${PUBLIC_KEY_MODULUS}
       system.publicKey.timestamp: ${PUBLIC_KEY_TIMESTAMP}
+      keycloak.auth-server-url: https://localhost:8180/auth
+      keycloak.ssl-required: external
+      keycloak.confidential-port: 443
+      keycloak.realm: keycloak-realm
+      keycloak.resource: kecloak-client
+      keycloak.public-client: "true"
+      keycloak.principal-attribute: preferred_username
+      keycloak.bearer-only: "true"
+      conf.enableAccountLevelAccessVerification: "false"
+      fin.keycloak.realm.publicKey: keycloak-rsa-public-key
+      keycloak.use-resource-role-mappings: "true"
     networks:
       external_tools_default:
       fineract:
@@ -569,6 +635,17 @@ services:
       system.publicKey.exponent: ${PUBLIC_KEY_EXPONENT}
       system.publicKey.modulus: ${PUBLIC_KEY_MODULUS}
       system.publicKey.timestamp: ${PUBLIC_KEY_TIMESTAMP}
+      keycloak.auth-server-url: https://localhost:8180/auth
+      keycloak.ssl-required: external
+      keycloak.confidential-port: 443
+      keycloak.realm: keycloak-realm
+      keycloak.resource: kecloak-client
+      keycloak.public-client: "true"
+      keycloak.principal-attribute: preferred_username
+      keycloak.bearer-only: "true"
+      conf.enableAccountLevelAccessVerification: "false"
+      fin.keycloak.realm.publicKey: keycloak-rsa-public-key
+      keycloak.use-resource-role-mappings: "true"
     networks:
       external_tools_default:
       fineract:
@@ -604,6 +681,17 @@ services:
       system.publicKey.exponent: ${PUBLIC_KEY_EXPONENT}
       system.publicKey.modulus: ${PUBLIC_KEY_MODULUS}
       system.publicKey.timestamp: ${PUBLIC_KEY_TIMESTAMP}
+      keycloak.auth-server-url: https://localhost:8180/auth
+      keycloak.ssl-required: external
+      keycloak.confidential-port: 443
+      keycloak.realm: keycloak-realm
+      keycloak.resource: kecloak-client
+      keycloak.public-client: "true"
+      keycloak.principal-attribute: preferred_username
+      keycloak.bearer-only: "true"
+      conf.enableAccountLevelAccessVerification: "false"
+      fin.keycloak.realm.publicKey: keycloak-rsa-public-key
+      keycloak.use-resource-role-mappings: "true"
     networks:
       external_tools_default:
       fineract:
@@ -639,6 +727,17 @@ services:
       system.publicKey.exponent: ${PUBLIC_KEY_EXPONENT}
       system.publicKey.modulus: ${PUBLIC_KEY_MODULUS}
       system.publicKey.timestamp: ${PUBLIC_KEY_TIMESTAMP}
+      keycloak.auth-server-url: https://localhost:8180/auth
+      keycloak.ssl-required: external
+      keycloak.confidential-port: 443
+      keycloak.realm: keycloak-realm
+      keycloak.resource: kecloak-client
+      keycloak.public-client: "true"
+      keycloak.principal-attribute: preferred_username
+      keycloak.bearer-only: "true"
+      conf.enableAccountLevelAccessVerification: "false"
+      fin.keycloak.realm.publicKey: keycloak-rsa-public-key
+      keycloak.use-resource-role-mappings: "true"
     networks:
       external_tools_default:
       fineract:
